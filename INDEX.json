@@ -1,0 +1,2086 @@
+{
+ "claude": [
+  {
+   "name": "ablation-planner",
+   "upstream": "skills/ablation-planner",
+   "shared_references": []
+  },
+  {
+   "name": "alphaxiv",
+   "upstream": "skills/alphaxiv",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "analyze-results",
+   "upstream": "skills/analyze-results",
+   "shared_references": []
+  },
+  {
+   "name": "arxiv",
+   "upstream": "skills/arxiv",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "auto-paper-improvement-loop",
+   "upstream": "skills/auto-paper-improvement-loop",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "auto-review-loop",
+   "upstream": "skills/auto-review-loop",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "auto-review-loop-llm",
+   "upstream": "skills/auto-review-loop-llm",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "auto-review-loop-minimax",
+   "upstream": "skills/auto-review-loop-minimax",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "citation-audit",
+   "upstream": "skills/citation-audit",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "citation-discipline.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "claims-drafting",
+   "upstream": "skills/claims-drafting",
+   "shared_references": [
+    "patent-format-cn.md",
+    "patent-format-ep.md",
+    "patent-format-us.md",
+    "patent-writing-principles.md"
+   ]
+  },
+  {
+   "name": "comm-lit-review",
+   "upstream": "skills/comm-lit-review",
+   "shared_references": []
+  },
+  {
+   "name": "deepxiv",
+   "upstream": "skills/deepxiv",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "dse-loop",
+   "upstream": "skills/dse-loop",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "embodiment-description",
+   "upstream": "skills/embodiment-description",
+   "shared_references": []
+  },
+  {
+   "name": "exa-search",
+   "upstream": "skills/exa-search",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "experiment-audit",
+   "upstream": "skills/experiment-audit",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "experiment-bridge",
+   "upstream": "skills/experiment-bridge",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "experiment-plan",
+   "upstream": "skills/experiment-plan",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "experiment-queue",
+   "upstream": "skills/experiment-queue",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "compute-env-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "feishu-notify",
+   "upstream": "skills/feishu-notify",
+   "shared_references": []
+  },
+  {
+   "name": "figure-description",
+   "upstream": "skills/figure-description",
+   "shared_references": []
+  },
+  {
+   "name": "figure-spec",
+   "upstream": "skills/figure-spec",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "formula-derivation",
+   "upstream": "skills/formula-derivation",
+   "shared_references": []
+  },
+  {
+   "name": "gemini-search",
+   "upstream": "skills/gemini-search",
+   "shared_references": []
+  },
+  {
+   "name": "grant-proposal",
+   "upstream": "skills/grant-proposal",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "idea-creator",
+   "upstream": "skills/idea-creator",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "citation-discipline.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "idea-discovery",
+   "upstream": "skills/idea-discovery",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "idea-discovery-robot",
+   "upstream": "skills/idea-discovery-robot",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "integrity-forensics",
+   "upstream": "skills/integrity-forensics",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "interview-cheatsheet",
+   "upstream": "skills/interview-cheatsheet",
+   "shared_references": []
+  },
+  {
+   "name": "invention-structuring",
+   "upstream": "skills/invention-structuring",
+   "shared_references": [
+    "patent-writing-principles.md"
+   ]
+  },
+  {
+   "name": "jurisdiction-format",
+   "upstream": "skills/jurisdiction-format",
+   "shared_references": [
+    "patent-format-cn.md",
+    "patent-format-ep.md",
+    "patent-format-us.md"
+   ]
+  },
+  {
+   "name": "kill-argument",
+   "upstream": "skills/kill-argument",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "mermaid-diagram",
+   "upstream": "skills/mermaid-diagram",
+   "shared_references": []
+  },
+  {
+   "name": "meta-apply",
+   "upstream": "skills/meta-apply",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-scope-limits.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "meta-optimize",
+   "upstream": "skills/meta-optimize",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "effort-contract.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "monitor-experiment",
+   "upstream": "skills/monitor-experiment",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "novelty-check",
+   "upstream": "skills/novelty-check",
+   "shared_references": [
+    "assurance-contract.md",
+    "citation-discipline.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "openalex",
+   "upstream": "skills/openalex",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "overleaf-sync",
+   "upstream": "skills/overleaf-sync",
+   "shared_references": []
+  },
+  {
+   "name": "paper-claim-audit",
+   "upstream": "skills/paper-claim-audit",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "paper-compile",
+   "upstream": "skills/paper-compile",
+   "shared_references": []
+  },
+  {
+   "name": "paper-figure",
+   "upstream": "skills/paper-figure",
+   "shared_references": []
+  },
+  {
+   "name": "paper-illustration",
+   "upstream": "skills/paper-illustration",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "paper-illustration-image2",
+   "upstream": "skills/paper-illustration-image2",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "paper-plan",
+   "upstream": "skills/paper-plan",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "venue-checklists.md",
+    "wiki-helper-resolution.md",
+    "writing-principles.md"
+   ]
+  },
+  {
+   "name": "paper-poster",
+   "upstream": "skills/paper-poster",
+   "shared_references": []
+  },
+  {
+   "name": "paper-poster-html",
+   "upstream": "skills/paper-poster-html",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "taste-calibration.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "paper-slides",
+   "upstream": "skills/paper-slides",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "paper-talk",
+   "upstream": "skills/paper-talk",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "paper-write",
+   "upstream": "skills/paper-write",
+   "shared_references": [
+    "assurance-contract.md",
+    "citation-discipline.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "venue-checklists.md",
+    "wiki-helper-resolution.md",
+    "writing-principles.md"
+   ]
+  },
+  {
+   "name": "paper-writing",
+   "upstream": "skills/paper-writing",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "patent-novelty-check",
+   "upstream": "skills/patent-novelty-check",
+   "shared_references": [
+    "patent-format-us.md",
+    "patent-writing-principles.md"
+   ]
+  },
+  {
+   "name": "patent-pipeline",
+   "upstream": "skills/patent-pipeline",
+   "shared_references": []
+  },
+  {
+   "name": "patent-review",
+   "upstream": "skills/patent-review",
+   "shared_references": []
+  },
+  {
+   "name": "pixel-art",
+   "upstream": "skills/pixel-art",
+   "shared_references": []
+  },
+  {
+   "name": "prior-art-search",
+   "upstream": "skills/prior-art-search",
+   "shared_references": [
+    "prior-art-databases.md"
+   ]
+  },
+  {
+   "name": "proof-checker",
+   "upstream": "skills/proof-checker",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "proof-orchestrator",
+   "upstream": "skills/proof-orchestrator",
+   "shared_references": []
+  },
+  {
+   "name": "proof-writer",
+   "upstream": "skills/proof-writer",
+   "shared_references": []
+  },
+  {
+   "name": "qzcli",
+   "upstream": "skills/qzcli",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "compute-env-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "rebuttal",
+   "upstream": "skills/rebuttal",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "render-html",
+   "upstream": "skills/render-html",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "research-implement-feature",
+   "upstream": "skills/research-implement-feature",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "effort-contract.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-scope-limits.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "research-lit",
+   "upstream": "skills/research-lit",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "citation-discipline.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "research-pipeline",
+   "upstream": "skills/research-pipeline",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "resumable-runs.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "research-refine",
+   "upstream": "skills/research-refine",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "taste-calibration.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "research-refine-pipeline",
+   "upstream": "skills/research-refine-pipeline",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "research-review",
+   "upstream": "skills/research-review",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "research-wiki",
+   "upstream": "skills/research-wiki",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "effort-contract.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "resubmit-pipeline",
+   "upstream": "skills/resubmit-pipeline",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "result-to-claim",
+   "upstream": "skills/result-to-claim",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "run-experiment",
+   "upstream": "skills/run-experiment",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "compute-env-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "semantic-scholar",
+   "upstream": "skills/semantic-scholar",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "serverless-modal",
+   "upstream": "skills/serverless-modal",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "compute-env-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "slides-polish",
+   "upstream": "skills/slides-polish",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "specification-writing",
+   "upstream": "skills/specification-writing",
+   "shared_references": [
+    "patent-format-cn.md",
+    "patent-writing-principles.md"
+   ]
+  },
+  {
+   "name": "system-profile",
+   "upstream": "skills/system-profile",
+   "shared_references": []
+  },
+  {
+   "name": "training-check",
+   "upstream": "skills/training-check",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "vast-gpu",
+   "upstream": "skills/vast-gpu",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "compute-env-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "web-debug-search",
+   "upstream": "skills/web-debug-search",
+   "shared_references": []
+  },
+  {
+   "name": "wiki-enrich",
+   "upstream": "skills/wiki-enrich",
+   "shared_references": [
+    "assurance-contract.md",
+    "effort-contract.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "writing-systems-papers",
+   "upstream": "skills/writing-systems-papers",
+   "shared_references": []
+  }
+ ],
+ "codex": [
+  {
+   "name": "ablation-planner-codex",
+   "upstream": "skills-codex/ablation-planner",
+   "shared_references": []
+  },
+  {
+   "name": "alphaxiv-codex",
+   "upstream": "skills-codex/alphaxiv",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "analyze-results-codex",
+   "upstream": "skills-codex/analyze-results",
+   "shared_references": []
+  },
+  {
+   "name": "arxiv-codex",
+   "upstream": "skills-codex/arxiv",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "auto-paper-improvement-loop-codex",
+   "upstream": "skills-codex/auto-paper-improvement-loop",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "auto-review-loop-codex",
+   "upstream": "skills-codex/auto-review-loop",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-scope-limits.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "auto-review-loop-llm-codex",
+   "upstream": "skills-codex/auto-review-loop-llm",
+   "shared_references": [
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md"
+   ]
+  },
+  {
+   "name": "auto-review-loop-minimax-codex",
+   "upstream": "skills-codex/auto-review-loop-minimax",
+   "shared_references": [
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md"
+   ]
+  },
+  {
+   "name": "citation-audit-codex",
+   "upstream": "skills-codex/citation-audit",
+   "shared_references": [
+    "assurance-contract.md",
+    "citation-discipline.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "claims-drafting-codex",
+   "upstream": "skills-codex/claims-drafting",
+   "shared_references": [
+    "patent-format-cn.md",
+    "patent-format-ep.md",
+    "patent-format-us.md",
+    "patent-writing-principles.md"
+   ]
+  },
+  {
+   "name": "comm-lit-review-codex",
+   "upstream": "skills-codex/comm-lit-review",
+   "shared_references": []
+  },
+  {
+   "name": "deepxiv-codex",
+   "upstream": "skills-codex/deepxiv",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "dse-loop-codex",
+   "upstream": "skills-codex/dse-loop",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "embodiment-description-codex",
+   "upstream": "skills-codex/embodiment-description",
+   "shared_references": []
+  },
+  {
+   "name": "exa-search-codex",
+   "upstream": "skills-codex/exa-search",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "experiment-audit-codex",
+   "upstream": "skills-codex/experiment-audit",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "experiment-bridge-codex",
+   "upstream": "skills-codex/experiment-bridge",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "experiment-plan-codex",
+   "upstream": "skills-codex/experiment-plan",
+   "shared_references": [
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md"
+   ]
+  },
+  {
+   "name": "experiment-queue-codex",
+   "upstream": "skills-codex/experiment-queue",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "compute-env-contract.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "feishu-notify-codex",
+   "upstream": "skills-codex/feishu-notify",
+   "shared_references": []
+  },
+  {
+   "name": "figure-description-codex",
+   "upstream": "skills-codex/figure-description",
+   "shared_references": []
+  },
+  {
+   "name": "figure-spec-codex",
+   "upstream": "skills-codex/figure-spec",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "formula-derivation-codex",
+   "upstream": "skills-codex/formula-derivation",
+   "shared_references": []
+  },
+  {
+   "name": "gemini-search-codex",
+   "upstream": "skills-codex/gemini-search",
+   "shared_references": []
+  },
+  {
+   "name": "grant-proposal-codex",
+   "upstream": "skills-codex/grant-proposal",
+   "shared_references": [
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md"
+   ]
+  },
+  {
+   "name": "idea-creator-codex",
+   "upstream": "skills-codex/idea-creator",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "idea-discovery-codex",
+   "upstream": "skills-codex/idea-discovery",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "idea-discovery-robot-codex",
+   "upstream": "skills-codex/idea-discovery-robot",
+   "shared_references": [
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md"
+   ]
+  },
+  {
+   "name": "integrity-forensics-codex",
+   "upstream": "skills-codex/integrity-forensics",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "interview-cheatsheet-codex",
+   "upstream": "skills-codex/interview-cheatsheet",
+   "shared_references": []
+  },
+  {
+   "name": "invention-structuring-codex",
+   "upstream": "skills-codex/invention-structuring",
+   "shared_references": [
+    "patent-writing-principles.md"
+   ]
+  },
+  {
+   "name": "jurisdiction-format-codex",
+   "upstream": "skills-codex/jurisdiction-format",
+   "shared_references": [
+    "patent-format-cn.md",
+    "patent-format-ep.md",
+    "patent-format-us.md"
+   ]
+  },
+  {
+   "name": "kill-argument-codex",
+   "upstream": "skills-codex/kill-argument",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "mermaid-diagram-codex",
+   "upstream": "skills-codex/mermaid-diagram",
+   "shared_references": []
+  },
+  {
+   "name": "meta-apply-codex",
+   "upstream": "skills-codex/meta-apply",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-scope-limits.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "meta-optimize-codex",
+   "upstream": "skills-codex/meta-optimize",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "monitor-experiment-codex",
+   "upstream": "skills-codex/monitor-experiment",
+   "shared_references": []
+  },
+  {
+   "name": "novelty-check-codex",
+   "upstream": "skills-codex/novelty-check",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "openalex-codex",
+   "upstream": "skills-codex/openalex",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "overleaf-sync-codex",
+   "upstream": "skills-codex/overleaf-sync",
+   "shared_references": []
+  },
+  {
+   "name": "paper-claim-audit-codex",
+   "upstream": "skills-codex/paper-claim-audit",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "paper-compile-codex",
+   "upstream": "skills-codex/paper-compile",
+   "shared_references": []
+  },
+  {
+   "name": "paper-figure-codex",
+   "upstream": "skills-codex/paper-figure",
+   "shared_references": []
+  },
+  {
+   "name": "paper-illustration-codex",
+   "upstream": "skills-codex/paper-illustration",
+   "shared_references": []
+  },
+  {
+   "name": "paper-illustration-image2-codex",
+   "upstream": "skills-codex/paper-illustration-image2",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "paper-plan-codex",
+   "upstream": "skills-codex/paper-plan",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "venue-checklists.md",
+    "writing-principles.md"
+   ]
+  },
+  {
+   "name": "paper-poster-codex",
+   "upstream": "skills-codex/paper-poster",
+   "shared_references": []
+  },
+  {
+   "name": "paper-poster-html-codex",
+   "upstream": "skills-codex/paper-poster-html",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md",
+    "taste-calibration.md"
+   ]
+  },
+  {
+   "name": "paper-slides-codex",
+   "upstream": "skills-codex/paper-slides",
+   "shared_references": []
+  },
+  {
+   "name": "paper-talk-codex",
+   "upstream": "skills-codex/paper-talk",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "effort-contract.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "paper-write-codex",
+   "upstream": "skills-codex/paper-write",
+   "shared_references": [
+    "citation-discipline.md",
+    "venue-checklists.md",
+    "writing-principles.md"
+   ]
+  },
+  {
+   "name": "paper-writing-codex",
+   "upstream": "skills-codex/paper-writing",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-scope-limits.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "patent-novelty-check-codex",
+   "upstream": "skills-codex/patent-novelty-check",
+   "shared_references": [
+    "patent-format-us.md",
+    "patent-writing-principles.md"
+   ]
+  },
+  {
+   "name": "patent-pipeline-codex",
+   "upstream": "skills-codex/patent-pipeline",
+   "shared_references": []
+  },
+  {
+   "name": "patent-review-codex",
+   "upstream": "skills-codex/patent-review",
+   "shared_references": []
+  },
+  {
+   "name": "pixel-art-codex",
+   "upstream": "skills-codex/pixel-art",
+   "shared_references": []
+  },
+  {
+   "name": "prior-art-search-codex",
+   "upstream": "skills-codex/prior-art-search",
+   "shared_references": [
+    "prior-art-databases.md"
+   ]
+  },
+  {
+   "name": "proof-checker-codex",
+   "upstream": "skills-codex/proof-checker",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "proof-orchestrator-codex",
+   "upstream": "skills-codex/proof-orchestrator",
+   "shared_references": []
+  },
+  {
+   "name": "proof-writer-codex",
+   "upstream": "skills-codex/proof-writer",
+   "shared_references": []
+  },
+  {
+   "name": "qzcli-codex",
+   "upstream": "skills-codex/qzcli",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "compute-env-contract.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "rebuttal-codex",
+   "upstream": "skills-codex/rebuttal",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "render-html-codex",
+   "upstream": "skills-codex/render-html",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "research-implement-feature-codex",
+   "upstream": "skills-codex/research-implement-feature",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "effort-contract.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "output-language.md",
+    "review-scope-limits.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "research-lit-codex",
+   "upstream": "skills-codex/research-lit",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "research-pipeline-codex",
+   "upstream": "skills-codex/research-pipeline",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "resumable-runs.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "research-refine-codex",
+   "upstream": "skills-codex/research-refine",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md",
+    "taste-calibration.md"
+   ]
+  },
+  {
+   "name": "research-refine-pipeline-codex",
+   "upstream": "skills-codex/research-refine-pipeline",
+   "shared_references": [
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md"
+   ]
+  },
+  {
+   "name": "research-review-codex",
+   "upstream": "skills-codex/research-review",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "output-composition.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "research-wiki-codex",
+   "upstream": "skills-codex/research-wiki",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "resubmit-pipeline-codex",
+   "upstream": "skills-codex/resubmit-pipeline",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "result-to-claim-codex",
+   "upstream": "skills-codex/result-to-claim",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "run-experiment-codex",
+   "upstream": "skills-codex/run-experiment",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "compute-env-contract.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "semantic-scholar-codex",
+   "upstream": "skills-codex/semantic-scholar",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md"
+   ]
+  },
+  {
+   "name": "serverless-modal-codex",
+   "upstream": "skills-codex/serverless-modal",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "compute-env-contract.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "slides-polish-codex",
+   "upstream": "skills-codex/slides-polish",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "effort-contract.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "specification-writing-codex",
+   "upstream": "skills-codex/specification-writing",
+   "shared_references": [
+    "patent-format-cn.md",
+    "patent-writing-principles.md"
+   ]
+  },
+  {
+   "name": "system-profile-codex",
+   "upstream": "skills-codex/system-profile",
+   "shared_references": []
+  },
+  {
+   "name": "training-check-codex",
+   "upstream": "skills-codex/training-check",
+   "shared_references": []
+  },
+  {
+   "name": "vast-gpu-codex",
+   "upstream": "skills-codex/vast-gpu",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "compute-env-contract.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "web-debug-search-codex",
+   "upstream": "skills-codex/web-debug-search",
+   "shared_references": []
+  },
+  {
+   "name": "wiki-enrich-codex",
+   "upstream": "skills-codex/wiki-enrich",
+   "shared_references": [
+    "assurance-contract.md",
+    "integration-contract.md",
+    "output-language.md",
+    "output-manifest.md",
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-independence.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "writing-systems-papers-codex",
+   "upstream": "skills-codex/writing-systems-papers",
+   "shared_references": []
+  }
+ ]
+}
