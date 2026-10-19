@@ -9,10 +9,14 @@
    "name": "alphaxiv",
    "upstream": "skills/alphaxiv",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -27,10 +31,14 @@
    "name": "arxiv",
    "upstream": "skills/arxiv",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -48,6 +56,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -69,6 +78,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -90,6 +100,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -111,6 +122,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -129,6 +141,25 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
+   "name": "citation-crosscheck",
+   "upstream": "skills/citation-crosscheck",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -138,10 +169,21 @@
    "name": "claims-drafting",
    "upstream": "skills/claims-drafting",
    "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
     "patent-format-cn.md",
     "patent-format-ep.md",
     "patent-format-us.md",
-    "patent-writing-principles.md"
+    "patent-writing-principles.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
    ]
   },
   {
@@ -153,10 +195,14 @@
    "name": "deepxiv",
    "upstream": "skills/deepxiv",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -174,6 +220,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -188,10 +235,14 @@
    "name": "exa-search",
    "upstream": "skills/exa-search",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -209,6 +260,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -230,6 +282,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -239,14 +292,18 @@
    "name": "experiment-plan",
    "upstream": "skills/experiment-plan",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "output-composition.md",
     "output-language.md",
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -265,6 +322,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -284,10 +342,14 @@
    "name": "figure-spec",
    "upstream": "skills/figure-spec",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -307,14 +369,18 @@
    "name": "grant-proposal",
    "upstream": "skills/grant-proposal",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "output-composition.md",
     "output-language.md",
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -337,6 +403,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -358,6 +425,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -367,14 +435,18 @@
    "name": "idea-discovery-robot",
    "upstream": "skills/idea-discovery-robot",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "output-composition.md",
     "output-language.md",
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -392,6 +464,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -400,13 +473,36 @@
   {
    "name": "interview-cheatsheet",
    "upstream": "skills/interview-cheatsheet",
-   "shared_references": []
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
   },
   {
    "name": "invention-structuring",
    "upstream": "skills/invention-structuring",
    "shared_references": [
-    "patent-writing-principles.md"
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "patent-writing-principles.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
    ]
   },
   {
@@ -430,6 +526,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -446,6 +543,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -468,6 +566,7 @@
     "integration-contract.md",
     "review-scope-limits.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -491,6 +590,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -508,6 +608,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -517,11 +618,15 @@
    "name": "novelty-check",
    "upstream": "skills/novelty-check",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "citation-discipline.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -531,10 +636,14 @@
    "name": "openalex",
    "upstream": "skills/openalex",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -557,6 +666,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -570,16 +680,32 @@
   {
    "name": "paper-figure",
    "upstream": "skills/paper-figure",
-   "shared_references": []
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
   },
   {
    "name": "paper-illustration",
    "upstream": "skills/paper-illustration",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -589,10 +715,14 @@
    "name": "paper-illustration-image2",
    "upstream": "skills/paper-illustration-image2",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -602,14 +732,18 @@
    "name": "paper-plan",
    "upstream": "skills/paper-plan",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "output-composition.md",
     "output-language.md",
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "venue-checklists.md",
@@ -633,6 +767,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "taste-calibration.md",
@@ -643,10 +778,14 @@
    "name": "paper-slides",
    "upstream": "skills/paper-slides",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -656,11 +795,14 @@
    "name": "paper-talk",
    "upstream": "skills/paper-talk",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
     "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -670,11 +812,15 @@
    "name": "paper-write",
    "upstream": "skills/paper-write",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "citation-discipline.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "venue-checklists.md",
@@ -686,14 +832,18 @@
    "name": "paper-writing",
    "upstream": "skills/paper-writing",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "output-composition.md",
     "output-language.md",
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -703,19 +853,54 @@
    "name": "patent-novelty-check",
    "upstream": "skills/patent-novelty-check",
    "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
     "patent-format-us.md",
-    "patent-writing-principles.md"
+    "patent-writing-principles.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
    ]
   },
   {
    "name": "patent-pipeline",
    "upstream": "skills/patent-pipeline",
-   "shared_references": []
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
   },
   {
    "name": "patent-review",
    "upstream": "skills/patent-review",
-   "shared_references": []
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
   },
   {
    "name": "pixel-art",
@@ -741,6 +926,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -768,6 +954,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -777,10 +964,14 @@
    "name": "rebuttal",
    "upstream": "skills/rebuttal",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -790,10 +981,14 @@
    "name": "render-html",
    "upstream": "skills/render-html",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -818,6 +1013,7 @@
     "output-versioning.md",
     "review-scope-limits.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -839,6 +1035,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -861,6 +1058,7 @@
     "output-versioning.md",
     "resumable-runs.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -881,6 +1079,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "taste-calibration.md",
@@ -891,14 +1090,18 @@
    "name": "research-refine-pipeline",
    "upstream": "skills/research-refine-pipeline",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "output-composition.md",
     "output-language.md",
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -920,6 +1123,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -939,6 +1143,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -948,10 +1153,14 @@
    "name": "resubmit-pipeline",
    "upstream": "skills/resubmit-pipeline",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -970,6 +1179,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -987,6 +1197,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -996,10 +1207,14 @@
    "name": "semantic-scholar",
    "upstream": "skills/semantic-scholar",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -1017,6 +1232,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -1026,11 +1242,14 @@
    "name": "slides-polish",
    "upstream": "skills/slides-polish",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
     "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -1040,8 +1259,19 @@
    "name": "specification-writing",
    "upstream": "skills/specification-writing",
    "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
     "patent-format-cn.md",
-    "patent-writing-principles.md"
+    "patent-writing-principles.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
    ]
   },
   {
@@ -1061,6 +1291,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -1078,6 +1309,7 @@
     "fan-out-pattern.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -1092,14 +1324,18 @@
    "name": "wiki-enrich",
    "upstream": "skills/wiki-enrich",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
     "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
     "integration-contract.md",
     "output-composition.md",
     "output-language.md",
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "wiki-helper-resolution.md"
@@ -1121,10 +1357,20 @@
    "name": "alphaxiv-codex",
    "upstream": "skills-codex/alphaxiv",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
@@ -1136,20 +1382,40 @@
    "name": "arxiv-codex",
    "upstream": "skills-codex/arxiv",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
    "name": "auto-paper-improvement-loop-codex",
    "upstream": "skills-codex/auto-paper-improvement-loop",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
@@ -1170,6 +1436,7 @@
     "output-versioning.md",
     "review-scope-limits.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1197,21 +1464,65 @@
    "name": "citation-audit-codex",
    "upstream": "skills-codex/citation-audit",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
     "citation-discipline.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
+   "name": "citation-crosscheck-codex",
+   "upstream": "skills-codex/citation-crosscheck",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
    "name": "claims-drafting-codex",
    "upstream": "skills-codex/claims-drafting",
    "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
     "patent-format-cn.md",
     "patent-format-ep.md",
     "patent-format-us.md",
-    "patent-writing-principles.md"
+    "patent-writing-principles.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
@@ -1223,10 +1534,20 @@
    "name": "deepxiv-codex",
    "upstream": "skills-codex/deepxiv",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
@@ -1243,6 +1564,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1257,10 +1579,20 @@
    "name": "exa-search-codex",
    "upstream": "skills-codex/exa-search",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
@@ -1277,6 +1609,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1299,6 +1632,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1328,6 +1662,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1347,10 +1682,20 @@
    "name": "figure-spec-codex",
    "upstream": "skills-codex/figure-spec",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
@@ -1367,9 +1712,23 @@
    "name": "grant-proposal-codex",
    "upstream": "skills-codex/grant-proposal",
    "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
     "output-language.md",
     "output-manifest.md",
-    "output-versioning.md"
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
@@ -1390,6 +1749,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md",
@@ -1400,45 +1760,108 @@
    "name": "idea-discovery-codex",
    "upstream": "skills-codex/idea-discovery",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "output-composition.md",
     "output-language.md",
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
    "name": "idea-discovery-robot-codex",
    "upstream": "skills-codex/idea-discovery-robot",
    "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
     "output-language.md",
     "output-manifest.md",
-    "output-versioning.md"
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
    "name": "integrity-forensics-codex",
    "upstream": "skills-codex/integrity-forensics",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
    "name": "interview-cheatsheet-codex",
    "upstream": "skills-codex/interview-cheatsheet",
-   "shared_references": []
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
   },
   {
    "name": "invention-structuring-codex",
    "upstream": "skills-codex/invention-structuring",
    "shared_references": [
-    "patent-writing-principles.md"
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "patent-writing-principles.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
@@ -1464,6 +1887,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1483,6 +1907,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1508,6 +1933,7 @@
     "integration-contract.md",
     "review-scope-limits.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1530,6 +1956,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1544,20 +1971,40 @@
    "name": "novelty-check-codex",
    "upstream": "skills-codex/novelty-check",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
    "name": "openalex-codex",
    "upstream": "skills-codex/openalex",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
@@ -1569,10 +2016,20 @@
    "name": "paper-claim-audit-codex",
    "upstream": "skills-codex/paper-claim-audit",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
@@ -1583,7 +2040,22 @@
   {
    "name": "paper-figure-codex",
    "upstream": "skills-codex/paper-figure",
-   "shared_references": []
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
   },
   {
    "name": "paper-illustration-codex",
@@ -1594,23 +2066,43 @@
    "name": "paper-illustration-image2-codex",
    "upstream": "skills-codex/paper-illustration-image2",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
    "name": "paper-plan-codex",
    "upstream": "skills-codex/paper-plan",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "output-language.md",
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md",
     "venue-checklists.md",
     "writing-principles.md"
    ]
@@ -1634,6 +2126,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md",
@@ -1643,7 +2136,22 @@
   {
    "name": "paper-slides-codex",
    "upstream": "skills-codex/paper-slides",
-   "shared_references": []
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
   },
   {
    "name": "paper-talk-codex",
@@ -1660,6 +2168,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1669,7 +2178,21 @@
    "name": "paper-write-codex",
    "upstream": "skills-codex/paper-write",
    "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
     "citation-discipline.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md",
     "venue-checklists.md",
     "writing-principles.md"
    ]
@@ -1692,6 +2215,7 @@
     "output-versioning.md",
     "review-scope-limits.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1701,19 +2225,63 @@
    "name": "patent-novelty-check-codex",
    "upstream": "skills-codex/patent-novelty-check",
    "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
     "patent-format-us.md",
-    "patent-writing-principles.md"
+    "patent-writing-principles.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
    "name": "patent-pipeline-codex",
    "upstream": "skills-codex/patent-pipeline",
-   "shared_references": []
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
   },
   {
    "name": "patent-review-codex",
    "upstream": "skills-codex/patent-review",
-   "shared_references": []
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
   },
   {
    "name": "pixel-art-codex",
@@ -1741,6 +2309,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1771,6 +2340,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1790,6 +2360,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1809,6 +2380,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1831,6 +2403,7 @@
     "output-language.md",
     "review-scope-limits.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1854,6 +2427,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1877,6 +2451,7 @@
     "output-versioning.md",
     "resumable-runs.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1899,6 +2474,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md",
@@ -1909,9 +2485,23 @@
    "name": "research-refine-pipeline-codex",
    "upstream": "skills-codex/research-refine-pipeline",
    "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
     "output-language.md",
     "output-manifest.md",
-    "output-versioning.md"
+    "output-versioning.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
@@ -1932,6 +2522,7 @@
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1951,6 +2542,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -1960,10 +2552,20 @@
    "name": "resubmit-pipeline-codex",
    "upstream": "skills-codex/resubmit-pipeline",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
@@ -1980,6 +2582,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -2000,6 +2603,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -2009,10 +2613,20 @@
    "name": "semantic-scholar-codex",
    "upstream": "skills-codex/semantic-scholar",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
-    "reviewer-independence.md"
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
@@ -2030,6 +2644,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -2050,6 +2665,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -2059,8 +2675,22 @@
    "name": "specification-writing-codex",
    "upstream": "skills-codex/specification-writing",
    "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
     "patent-format-cn.md",
-    "patent-writing-principles.md"
+    "patent-writing-principles.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
@@ -2071,7 +2701,22 @@
   {
    "name": "training-check-codex",
    "upstream": "skills-codex/training-check",
-   "shared_references": []
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
   },
   {
    "name": "vast-gpu-codex",
@@ -2088,6 +2733,7 @@
     "injection-hygiene.md",
     "integration-contract.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
     "reviewer-routing.md",
     "skill-governance.md"
@@ -2102,13 +2748,23 @@
    "name": "wiki-enrich-codex",
    "upstream": "skills-codex/wiki-enrich",
    "shared_references": [
+    "acceptance-gate.md",
     "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
     "integration-contract.md",
     "output-language.md",
     "output-manifest.md",
     "output-versioning.md",
     "review-tracing.md",
+    "reviewer-backends.md",
     "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md",
     "wiki-helper-resolution.md"
    ]
   },
