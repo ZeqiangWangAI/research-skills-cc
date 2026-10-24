@@ -356,6 +356,24 @@
    ]
   },
   {
+   "name": "firecrawl-search",
+   "upstream": "skills/firecrawl-search",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "citation-discipline.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
+   ]
+  },
+  {
    "name": "formula-derivation",
    "upstream": "skills/formula-derivation",
    "shared_references": []
@@ -512,6 +530,23 @@
     "patent-format-cn.md",
     "patent-format-ep.md",
     "patent-format-us.md"
+   ]
+  },
+  {
+   "name": "keenable-search",
+   "upstream": "skills/keenable-search",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "effort-contract.md",
+    "experiment-integrity.md",
+    "fan-out-pattern.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "wiki-helper-resolution.md"
    ]
   },
   {
@@ -1699,6 +1734,27 @@
    ]
   },
   {
+   "name": "firecrawl-search-codex",
+   "upstream": "skills-codex/firecrawl-search",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "citation-discipline.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
+   ]
+  },
+  {
    "name": "formula-derivation-codex",
    "upstream": "skills-codex/formula-derivation",
    "shared_references": []
@@ -1871,6 +1927,26 @@
     "patent-format-cn.md",
     "patent-format-ep.md",
     "patent-format-us.md"
+   ]
+  },
+  {
+   "name": "keenable-search-codex",
+   "upstream": "skills-codex/keenable-search",
+   "shared_references": [
+    "acceptance-gate.md",
+    "assurance-contract.md",
+    "capture-antipatterns.md",
+    "evidence-precheck.md",
+    "experiment-integrity.md",
+    "external-cadence.md",
+    "fan-out-pattern.md",
+    "injection-hygiene.md",
+    "integration-contract.md",
+    "review-tracing.md",
+    "reviewer-backends.md",
+    "reviewer-independence.md",
+    "reviewer-routing.md",
+    "skill-governance.md"
    ]
   },
   {
