@@ -273,6 +273,7 @@
    "shared_references": [
     "acceptance-gate.md",
     "assurance-contract.md",
+    "compute-env-contract.md",
     "effort-contract.md",
     "experiment-integrity.md",
     "external-cadence.md",
@@ -1660,6 +1661,7 @@
     "acceptance-gate.md",
     "assurance-contract.md",
     "capture-antipatterns.md",
+    "compute-env-contract.md",
     "evidence-precheck.md",
     "experiment-integrity.md",
     "external-cadence.md",
